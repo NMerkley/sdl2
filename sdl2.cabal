@@ -104,7 +104,9 @@ library
 
   c-sources:
     cbits/sdlhelper.c
-
+ 
+  cpp-options: -D_SDL_main_h
+ 
   include-dirs:
     include
 
